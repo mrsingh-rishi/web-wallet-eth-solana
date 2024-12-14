@@ -1,0 +1,129 @@
+/* Body and HTML */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Start aligning from the top */
+  background-color: #181828; /* Darker background */
+  font-family: Arial, sans-serif;
+}
+
+/* Wallet Container */
+.walletContainer {
+  width: 100%; /* Full screen width */
+  max-width: 1200px; /* Max width for better readability */
+  padding: 2rem;
+  background-color: #121212;
+  border-radius: 12px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-y: auto; /* Scroll if content overflows */
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* Add Button */
+.addButton {
+  background-color: #6a5acd;
+  color: #ffffff;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 1rem;
+}
+
+.addButton:hover {
+  background-color: #5a4dbd;
+}
+
+/* Wallet List */
+.walletList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* Wallet Card */
+.walletCard {
+  width: 90%;
+  max-width: 500px; /* Ensure the card doesn't get too large */
+  padding: 1rem;
+  background-color: #2c2c3e;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+/* Wallet Card Heading */
+.walletCard h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+/* Wallet Card Paragraph */
+.walletCard p {
+  word-break: break-all;
+  font-family: monospace;
+  font-size: 0.9rem;
+}
+
+/* Solana Key */
+.solanaKey {
+  color: #00ffa3;
+}
+
+/* Ethereum Key */
+.ethKey {
+  color: #f4b400;
+}
+
+/* Copy Button */
+.copyButton {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.copyButton:hover {
+  color: #00ffa3;
+}
+
+/* Balance Text */
+.balanceText {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Toggle Button */
+.toggleButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #00ffa3;
+  color: #121212;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.toggleButton:hover {
+  background-color: #00d18b;
+}
